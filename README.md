@@ -1,4 +1,4 @@
-### Curriculum
+## Curriculum
 
 Criação de página em formato de curriculum.
 
