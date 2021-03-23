@@ -148,6 +148,16 @@ header h2::before {
   border-bottom: none;
 }
 
+header button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px;
+  background-color: var(--color-line);
+  color: var(--color-title);
+  z-index: 4;
+}
+
 /* main */
 
 main {
