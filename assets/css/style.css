@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 h1,
 h2,
 h3 {
@@ -68,6 +72,7 @@ header {
   background-image: url("./../img/banner.jpeg");
   background-position: center;
   background-size: cover;
+  -webkit-print-color-adjust: exact;
 }
 
 @media (max-width: 480px) {
@@ -224,6 +229,8 @@ section span {
   }
 }
 
-li {
-  list-style: inside;
+@media print {
+  .no-printable {
+    display: none;
+  }
 }
