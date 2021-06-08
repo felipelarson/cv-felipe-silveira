@@ -184,6 +184,10 @@ section {
   background-color: var(--color-title);
 }
 
+section span#age {
+  font-weight: normal;
+}
+
 @media (max-width: 480px) {
   section:first-of-type {
     padding-bottom: 0;
