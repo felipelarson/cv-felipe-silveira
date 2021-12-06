@@ -100,6 +100,12 @@ header figure {
   z-index: 2;
 }
 
+.paragraph_color,
+#age {
+  color: var(--color-line);
+  margin-bottom: 6px;
+}
+
 header figure img {
   height: 125px;
   filter: drop-shadow(3px 6px 6px var(--color-text));
@@ -113,8 +119,8 @@ header figure img {
 
 header div {
   position: absolute;
-  top: 60px;
-  left: 200px;
+  top: 20px;
+  left: 20px;
   letter-spacing: 5px;
   z-index: 2;
 }
@@ -185,9 +191,9 @@ section {
   background-color: var(--color-title);
 }
 
-section span#age {
+/* section span#age {
   font-weight: normal;
-}
+} */
 
 @media (max-width: 480px) {
   section:first-of-type {
