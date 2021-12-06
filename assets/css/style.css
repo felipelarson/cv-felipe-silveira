@@ -161,6 +161,7 @@ header button {
   background-color: var(--color-line);
   color: var(--color-title);
   z-index: 4;
+  cursor: pointer;
 }
 
 /* main */
