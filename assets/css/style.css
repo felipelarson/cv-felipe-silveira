@@ -102,8 +102,9 @@ header figure {
 
 .paragraph_color,
 #age {
-  color: var(--color-line);
+  color: var(--color-title);
   margin-bottom: 6px;
+  font-size: var(--font-size);
 }
 
 header figure img {
@@ -238,6 +239,10 @@ section span {
   p {
     text-align: justify;
   }
+}
+
+.skills {
+  column-count: 2;
 }
 
 @media print {
