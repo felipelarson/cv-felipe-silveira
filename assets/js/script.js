@@ -11,15 +11,13 @@ let age = today.getFullYear() - 1980;
 localAge.innerHTML = age;
 
 const techs = (receive_tech) => {
+  const ul = document.querySelector(".skills");
 
-  const ul = document.querySelector('.skills');
-
-  const li = document.createElement('li');
+  const li = document.createElement("li");
   li.innerText = receive_tech;
 
   ul.appendChild(li);
-
-}
+};
 
 const techs_list = [
   "HTML 5",
@@ -32,13 +30,16 @@ const techs_list = [
   "Jest",
   "CyPress",
   "Git",
-  "Scrum",
+  "GitFlow",
   "PHP",
   "CodeIgniter",
-  "Laravel",
+  "Python",
+  "Flask",
   "MySql",
+  "Postegresql",
+  "MongoDB",
+  "NodeJS",
   "Inglês - B1",
 ];
 
-
-techs_list.map(tech => techs(tech))
+techs_list.map((tech) => techs(tech));
