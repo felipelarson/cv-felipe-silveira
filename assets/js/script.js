@@ -37,7 +37,7 @@ const techs_list = [
   "CodeIgniter",
   "Laravel",
   "MySql",
-  "Inglês - Intermediário",
+  "Inglês - B1",
 ];
 
 
