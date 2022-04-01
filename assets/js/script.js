@@ -5,10 +5,10 @@ buttonPrint.addEventListener("click", function (evt) {
   window.print();
 });
 
-const localAge = document.querySelector("#age");
-let today = new Date();
-let age = today.getFullYear() - 1980;
-localAge.innerHTML = age;
+// const localAge = document.querySelector("#age");
+// let today = new Date();
+// let age = today.getFullYear() - 1980;
+// localAge.innerHTML = age;
 
 const techs = (receive_tech) => {
   const ul = document.querySelector(".skills");
