@@ -1,5 +1,15 @@
-## Curriculum
+# Curriculum Vitae Felipe L. da Silveira
 
-Criação de página em formato de curriculum.
+## Tech
+- Vite
+- CSS
+- React
+- TypeScript
 
-Feito em HTML, CSS, JS.
+---
+
+## Start Project
+
+```shell
+yarn && yarn dev
+```
