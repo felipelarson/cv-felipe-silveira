@@ -219,3 +219,7 @@ section span {
     display: none;
   }
 }
+
+.experience__container {
+  margin-bottom: 20px;
+}

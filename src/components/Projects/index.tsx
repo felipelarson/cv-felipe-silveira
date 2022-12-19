@@ -2,19 +2,29 @@ export const Projects = () => (
   <article>
     <h2>Projetos</h2>
     <p>
-      <a href="https://finan.vercel.app/" target="_blank">Finan - Gerenciador Financeiro</a>
+      <a href="http://questionary-dev.enline-transmission.com/" target="_blank">
+        Questionário para serviços da Enline Transmission
+      </a>
     </p>
     <p>
-      <a href="https://github.com/patezsidney/capstone-q3" target="_blank">Api restfull Piaget system</a>
+      <a href="https://dev.enline-transmission.com/" target="_blank">
+        Site intitucional da Enline Transmission
+      </a>
     </p>
     <p>
-      <a href="https://github.com/felipelarson/siteLupulo" target="_blank">Site Lúpulo Campo Alegre</a>
+      <a href="https://development.enline-transmission.com/" target="_blank">
+        Módulo de Fault location da Enline Transmission
+      </a>
     </p>
     <p>
-      <a href="https://cv-nine-eta.vercel.app/" target="_blank">Sistema de controle Rsul</a>
+      <a href="https://finan.vercel.app/" target="_blank">
+        Finan - Gerenciador Financeiro
+      </a>
     </p>
     <p>
-      <a href="https://cv-nine-eta.vercel.app/" target="_blank">Cadastro para agencia de viagem</a>
+      <a href="https://github.com/patezsidney/capstone-q3" target="_blank">
+        Api restfull Piaget system
+      </a>
     </p>
   </article>
-)
+);
