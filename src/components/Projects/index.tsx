@@ -7,7 +7,7 @@ export const Projects = () => (
       </a>
     </p>
     <p>
-      <a href="https://dev.enline-transmission.com/" target="_blank">
+      <a href="https://www.enline-transmission.com/" target="_blank">
         Site intitucional da Enline Transmission
       </a>
     </p>
