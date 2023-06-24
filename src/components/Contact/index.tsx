@@ -1,6 +1,7 @@
 export const Contact = () => (
   <article>
-    <h2>Contato</h2>
+    {/* <h2>Contato</h2> */}
+    <h2>Contact</h2>
     <p>
       <i className="fas fa-envelope"></i>
       <a href="mailto:felipelarson@msn.com">felipelarson@gmail.com</a>
@@ -11,12 +12,18 @@ export const Contact = () => (
     </p>
     <p>
       <i className="fab fa-linkedin"></i>
-      <a href="https://www.linkedin.com/in/felipe-larson-da-silveira/"
-        target="_blank">/felipe-larson-da-silveira</a>
+      <a
+        href="https://www.linkedin.com/in/felipe-larson-da-silveira/"
+        target="_blank"
+      >
+        /felipe-larson-da-silveira
+      </a>
     </p>
     <p>
       <i className="fab fa-github"></i>
-      <a href="https://www.github.com/felipelarson" target="_blank">/felipelarson</a>
+      <a href="https://www.github.com/felipelarson" target="_blank">
+        /felipelarson
+      </a>
     </p>
   </article>
-)
+);
