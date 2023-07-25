@@ -35,26 +35,44 @@ export const Projects = () => (
       <a href="http://questionary-dev.enline-transmission.com/" target="_blank">
         Questionnaire for Enline Transmission services
       </a>
+      <br />
+      <small style={{ color: "gray" }}>
+        (nextjs - typescript - sass - Strapi - S3 Bucket)
+      </small>
     </p>
     <p>
       <a href="https://www.enline-transmission.com/" target="_blank">
         Enline Transmission official website
       </a>
+      <br />
+      <small style={{ color: "gray" }}>(nextjs - typescript - chakra ui)</small>
     </p>
     <p>
       <a href="https://development.enline-transmission.com/" target="_blank">
         Fault location module for Enline Transmission
       </a>
+      <br />
+      <small style={{ color: "gray" }}>
+        (nextjs - typescript - sass - plotly - S3 Bucket - lambda)
+      </small>
     </p>
     <p>
-      <a href="https://finan.vercel.app/" target="_blank">
-        Finan - Financial Manager
+      <a href="" target="_blank">
+        Dynamic Line Rating
       </a>
+      <br />
+      <small style={{ color: "gray" }}>
+        (nextjs - typescript - sass - plotly - lambda)
+      </small>
     </p>
     <p>
-      <a href="https://github.com/patezsidney/capstone-q3" target="_blank">
-        Piaget system Restful API
+      <a href="https://ems.enline-transmission.com/login" target="_blank">
+        Ems - api restfull
       </a>
+      <br />
+      <small style={{ color: "gray" }}>
+        (nestjs - typescript - mongoDB - S3 Bucket)
+      </small>
     </p>
   </article>
 );

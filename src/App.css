@@ -211,7 +211,7 @@ section span {
 }
 
 .skills {
-  column-count: 2;
+  column-count: 3;
 }
 
 @media print {
@@ -222,4 +222,20 @@ section span {
 
 .experience__container {
   margin-bottom: 20px;
+}
+
+.profile_image_container {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+}
+
+.profile_image {
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  right: 120px;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 2px #333;
 }

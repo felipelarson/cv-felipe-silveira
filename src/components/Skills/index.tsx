@@ -15,7 +15,7 @@ const techs_list = [
 
 export const Skills = () => (
   <article>
-    <h2>qualificações</h2>
+    <h2>skills</h2>
 
     <ul className="skills">
       {techs_list.map((elm, idx) => {

@@ -19,12 +19,12 @@ const year = date.getFullYear();
 
 export const Assign = () => (
   <article>
-    <h2>Signature</h2>
+    <h2>Date</h2>
     <p>
       Lisbon, {months[month]} {day}, {year}.
     </p>
-    <br />
+    {/* <br />
     <p>____________________________</p>
-    <p>Felipe Larson da Silveira</p>
+    <p>Felipe Larson da Silveira</p> */}
   </article>
 );
