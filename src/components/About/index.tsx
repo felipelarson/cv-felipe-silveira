@@ -1,6 +1,7 @@
 export const About = () => (
   <article>
-    <h2>About</h2>
+    {/* <h2>About</h2> */}
+    <h2>Sobre</h2>
     <p>
       Desenvolvedor Full Stack com mais de 5 anos de experiência, especializado
       em JavaScript, TypeScript e frameworks modernos como NestJS e Next.js.

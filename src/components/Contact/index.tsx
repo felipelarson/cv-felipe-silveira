@@ -1,7 +1,7 @@
 export const Contact = () => (
   <article>
-    {/* <h2>Contato</h2> */}
-    <h2>Contact</h2>
+    <h2>Contato</h2>
+    {/* <h2>Contact</h2> */}
     <p>
       <i className="fas fa-envelope"></i>
       <a href="mailto:felipelarson@msn.com">felipelarson@gmail.com</a>

@@ -7,13 +7,13 @@ export const Header: FC = () => (
       <p className="paragraph_color">FullStack Developer</p>
       <p className="paragraph_color">Lisboa - Portugal</p>
     </div>
-    <div className="profile_image_container">
+    {/* <div className="profile_image_container">
       <img
         src={profileImage}
         alt="Felipe L. Silveira"
         className="profile_image"
       />
-    </div>
+    </div> */}
     <button
       id="btn_print_page"
       className="no-printable"

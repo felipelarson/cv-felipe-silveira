@@ -23,7 +23,7 @@ export const App = () => {
 
           <Experiences />
 
-          <Assign />
+          {/* <Assign /> */}
         </section>
 
         <section className="section2">

@@ -24,8 +24,8 @@ const ExperiencesMock = [
 export const Experiences = () => (
   <>
     <article className="experience">
-      {/* <h2>Experiências</h2> */}
-      <h2>Experiences</h2>
+      <h2>Experiências</h2>
+      {/* <h2>Experiences</h2> */}
       {ExperiencesMock.map((experience) => (
         <div className="experience__container">
           <h3>

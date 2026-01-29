@@ -30,7 +30,8 @@
 // );
 export const Projects = () => (
   <article>
-    <h2>Projects</h2>
+    {/* <h2>Projects</h2> */}
+    <h2>Projetos</h2>
     <p>
       <a href="http://questionary-dev.enline-transmission.com/" target="_blank">
         Questionnaire for Enline Transmission services

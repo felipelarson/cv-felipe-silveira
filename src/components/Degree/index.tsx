@@ -1,6 +1,6 @@
 export const Degree = () => (
   <article>
-    <h2>Education</h2>
+    <h2>Educação</h2>
     <h3>Kenzie Academy | Kenzie Academy Brasil | Full Stack Web Developer</h3>
     <p>04/2021 | 04/2022</p>
     <br />

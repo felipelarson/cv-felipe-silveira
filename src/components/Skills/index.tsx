@@ -15,7 +15,9 @@ const techs_list = [
 
 export const Skills = () => (
   <article>
-    <h2>skills</h2>
+    {/* <h2>Skills</h2> */}
+    {/* em portugues */}
+    <h2>Habilidades</h2>
 
     <ul className="skills">
       {techs_list.map((elm, idx) => {
