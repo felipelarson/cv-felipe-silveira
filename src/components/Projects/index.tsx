@@ -34,11 +34,11 @@ export const Projects = () => (
     <h2>Projetos</h2>
     <p>
       <a href="http://questionary-dev.enline-transmission.com/" target="_blank">
-        Questionnaire for Enline Transmission services
+        Grid-Sight
       </a>
       <br />
       <small style={{ color: "gray" }}>
-        (nextjs - typescript - sass - Strapi - S3 Bucket)
+        (Next.js 15 - React 19 - TypeScript - Tailwind CSS 4 - Radix UI - Zustand - TanStack Query (React Query) - TanStack Table - Mapbox GL - Google Maps API - Plotly.js - React Flow (@xyflow) - React Hook Form + Zod - NextAuth.js - Next-intl - Biome)
       </small>
     </p>
     <p>
