@@ -1,25 +1,46 @@
 import { FC } from "react";
-import profileImage from "./../../img/Foto_perfil.jpeg";
-export const Header: FC = () => (
-  <header>
-    <div>
-      <h1>Felipe L. Silveira</h1>
-      <p className="paragraph_color">FullStack Developer</p>
-      <p className="paragraph_color">Lisboa - Portugal</p>
-    </div>
-    {/* <div className="profile_image_container">
-      <img
-        src={profileImage}
-        alt="Felipe L. Silveira"
-        className="profile_image"
-      />
-    </div> */}
-    <button
-      id="btn_print_page"
-      className="no-printable"
-      onClick={() => window.print()}
-    >
-      Print it
-    </button>
-  </header>
-);
+import { useLanguage } from "../../i18n";
+import profileImage from "../../img/Foto_perfil.jpeg";
+
+export const Header: FC = () => {
+  const { lang, t, toggleLang } = useLanguage();
+
+  return (
+    <header className="cv-header">
+      <div className="header-actions no-print">
+        <button className="print-btn no-print" onClick={() => window.print()}>
+          <i className="fa-solid fa-print"></i>
+          {t.printBtn}
+        </button>
+        <div className="lang-toggle">
+          <button
+            className={`lang-btn ${lang === "pt" ? "active" : ""}`}
+            onClick={lang !== "pt" ? toggleLang : undefined}
+          >
+            PT
+          </button>
+          <button
+            className={`lang-btn ${lang === "en" ? "active" : ""}`}
+            onClick={lang !== "en" ? toggleLang : undefined}
+          >
+            EN
+          </button>
+        </div>
+      </div>
+
+      <div className="header-content">
+        <div className="header-avatar-ring">
+          <img src={profileImage} alt="Felipe L. Silveira" />
+        </div>
+        <div className="header-info">
+          <h1 className="header-name">Felipe L. Silveira</h1>
+          <p className="header-role">{t.role}</p>
+          <p className="header-location">
+            <i className="fa-solid fa-location-dot"></i>
+            {t.location}
+          </p>
+        </div>
+      </div>
+    </header>
+  );
+};

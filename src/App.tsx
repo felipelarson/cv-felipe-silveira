@@ -1,39 +1,36 @@
 import "./App.css";
+import { LanguageProvider } from "./i18n";
 import {
   About,
-  Assign,
   Contact,
   Degree,
   Experiences,
   Header,
+  LanguageToggle,
   Projects,
   Skills,
 } from "./components";
 
 export const App = () => {
   return (
-    <>
-      <Header />
+    <LanguageProvider>
+      <div className="cv-wrapper">
+        <Header />
 
-      <main>
-        <section>
-          <Contact />
+        <div className="cv-main">
+          <aside className="cv-sidebar">
+            <Contact />
+            <Skills />
+            <Degree />
+          </aside>
 
-          <Degree />
-
-          <Experiences />
-
-          {/* <Assign /> */}
-        </section>
-
-        <section className="section2">
-          <Skills />
-
-          <About />
-
-          <Projects />
-        </section>
-      </main>
-    </>
+          <div className="cv-content">
+            <About />
+            <Experiences />
+            <Projects />
+          </div>
+        </div>
+      </div>
+    </LanguageProvider>
   );
 };

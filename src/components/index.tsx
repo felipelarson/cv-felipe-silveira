@@ -7,6 +7,9 @@ import { Header } from "./Header";
 import { Projects } from "./Projects";
 import { Skills } from "./Skills";
 
+// LanguageToggle is now integrated into Header
+const LanguageToggle = () => null;
+
 export {
   About,
   Assign,
@@ -14,6 +17,7 @@ export {
   Degree,
   Experiences,
   Header,
+  LanguageToggle,
   Projects,
-  Skills
-}
+  Skills,
+};

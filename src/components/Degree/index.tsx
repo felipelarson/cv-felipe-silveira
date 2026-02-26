@@ -1,12 +1,23 @@
-export const Degree = () => (
-  <article>
-    <h2>Educação</h2>
-    <h3>Kenzie Academy | Kenzie Academy Brasil | Full Stack Web Developer</h3>
-    <p>04/2021 | 04/2022</p>
-    <br />
-    <h3>
-      Etic | School of Technology, Innovation, and Creation | Web Development
-    </h3>
-    <p>08/2019 | 07/2020</p>
-  </article>
-);
+import { useLanguage } from "../../i18n";
+
+export const Degree = () => {
+  const { t } = useLanguage();
+
+  return (
+    <article>
+      <h2 className="section-title">
+        <i className="fa-solid fa-graduation-cap"></i>
+        {t.education}
+      </h2>
+      <div className="education-list">
+        {t.educationItems.map((item, i) => (
+          <div className="education-item" key={i}>
+            <p className="education-school">{item.school}</p>
+            <p className="education-course">{item.course}</p>
+            <p className="education-period">{item.period}</p>
+          </div>
+        ))}
+      </div>
+    </article>
+  );
+};
