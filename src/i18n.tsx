@@ -20,7 +20,7 @@ const translations = {
 
         // About
         aboutText:
-            "Desenvolvedor Full Stack com mais de 4 anos de experiência, especializado em JavaScript, TypeScript e frameworks modernos como NestJS e Next.js. Possuo sólida experiência no desenvolvimento de sistemas complexos e escaláveis, com foco em inovação e qualidade de código. Apaixonado por criar soluções que geram impacto real, estou sempre atualizado com as novas tecnologias e pronto para enfrentar desafios técnicos.",
+            "Desenvolvedor Full Stack com experiência em transformar requisitos complexos em soluções robustas e escaláveis, atuando tanto no frontend com Next.js quanto no backend com NestJS. Tenho facilidade em conectar diferentes tecnologias e criar arquiteturas eficientes. Sou movido por desafios técnicos e busco constantemente entregar produtos que agreguem valor real ao negócio.",
 
         // Education
         educationItems: [
@@ -138,7 +138,7 @@ const translations = {
 
         // About
         aboutText:
-            "Full Stack Developer with 4+ years of experience, specialized in JavaScript, TypeScript, and modern frameworks like NestJS and Next.js. I have solid experience building complex, scalable systems with a focus on innovation and code quality. Passionate about creating solutions that drive real impact, I stay up-to-date with emerging technologies and thrive on tackling technical challenges.",
+            "Full Stack Developer focused on the JavaScript/TypeScript ecosystem, with command of NestJS and Next.js. Experienced in creating end-to-end solutions, I seek to transform complex problems into scalable and efficient systems. My approach combines technical rigor with a mindset oriented towards innovation and business impact.",
 
         // Education
         educationItems: [
