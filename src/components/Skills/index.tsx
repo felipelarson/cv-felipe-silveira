@@ -18,10 +18,16 @@ const backendSkills = [
   "NestJS",
   "RESTful API",
   "JWT",
-  "PHP",
-  "Laravel",
-  "Codeigniter",
   "Strapi (CMS)",
+];
+
+const aiSkills = [
+  "OpenAI API",
+  "Claude API",
+  "Prompt Engineering",
+  "LLM Integration",
+  "AI-Powered Applications",
+  "RAG",
 ];
 
 const cloudSkills = [
@@ -72,6 +78,17 @@ export const Skills = () => {
         <p className="skills-category-title">{t.backend}</p>
         <div className="skills-grid">
           {backendSkills.map((skill) => (
+            <span className="skill-badge" key={skill}>
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="skills-category">
+        <p className="skills-category-title">{t.ai}</p>
+        <div className="skills-grid">
+          {aiSkills.map((skill) => (
             <span className="skill-badge" key={skill}>
               {skill}
             </span>

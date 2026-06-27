@@ -16,6 +16,9 @@ export const Experiences = () => {
               <span className="experience-company">{exp.company}</span>
               <span className="experience-period">{exp.period}</span>
             </div>
+            {"context" in exp && exp.context && (
+              <p className="experience-context">{exp.context}</p>
+            )}
             <p className="experience-role">{exp.role}</p>
             <ul className="experience-desc">
               {exp.description.map((desc, j) => (
