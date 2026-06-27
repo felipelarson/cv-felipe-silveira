@@ -1,34 +1,50 @@
 import { useLanguage } from "../../i18n";
 
 const frontendSkills = [
-  "JavaScript",
+  "JavaScript (ES6+)",
   "TypeScript",
   "React",
   "Next.js",
   "Tailwind CSS",
-  "Sass",
+  "Sass/SCSS",
   "Zustand",
   "React Query",
-  "React Hook Form",
+  "SSR / SSG",
+  "Responsive Design",
 ];
 
 const backendSkills = [
   "Node.js",
   "NestJS",
-  "Strapi",
-  "PostgreSQL",
-  "MongoDB",
-  "REST API",
+  "RESTful API",
+  "JWT",
+  "PHP",
+  "Laravel",
+  "Codeigniter",
+  "Strapi (CMS)",
 ];
 
-const toolsSkills = [
+const cloudSkills = [
+  "AWS Lambda",
+  "AWS S3",
+  "API Gateway",
+  "Serverless Architecture",
+  "Event-driven Architecture",
+];
+
+const databaseSkills = [
+  "PostgreSQL",
+  "MongoDB",
+  "Mongoose",
+  "ORM",
+];
+
+const devopsSkills = [
   "Git",
-  "AWS (S3, Lambda)",
-  "Mapbox GL",
-  "Google Maps API",
-  "Plotly.js",
+  "GitHub",
   "Docker",
-  "Biome",
+  "CI/CD",
+  "Vercel",
 ];
 
 export const Skills = () => {
@@ -64,9 +80,31 @@ export const Skills = () => {
       </div>
 
       <div className="skills-category">
-        <p className="skills-category-title">{t.tools}</p>
+        <p className="skills-category-title">{t.cloud}</p>
         <div className="skills-grid">
-          {toolsSkills.map((skill) => (
+          {cloudSkills.map((skill) => (
+            <span className="skill-badge" key={skill}>
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="skills-category">
+        <p className="skills-category-title">{t.databases}</p>
+        <div className="skills-grid">
+          {databaseSkills.map((skill) => (
+            <span className="skill-badge" key={skill}>
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="skills-category">
+        <p className="skills-category-title">{t.devops}</p>
+        <div className="skills-grid">
+          {devopsSkills.map((skill) => (
             <span className="skill-badge" key={skill}>
               {skill}
             </span>

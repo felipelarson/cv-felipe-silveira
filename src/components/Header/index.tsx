@@ -8,7 +8,7 @@ export const Header: FC = () => {
   return (
     <header className="cv-header">
       <div className="header-actions no-print">
-        <button className="print-btn no-print" onClick={() => window.print()}>
+        <button className="print-btn" onClick={() => window.print()}>
           <i className="fa-solid fa-print"></i>
           {t.printBtn}
         </button>
@@ -29,7 +29,7 @@ export const Header: FC = () => {
       </div>
 
       <div className="header-content">
-        <div className="header-avatar-ring">
+        <div className="header-avatar-ring no-print">
           <img src={profileImage} alt="Felipe L. Silveira" />
         </div>
         <div className="header-info">
@@ -40,6 +40,36 @@ export const Header: FC = () => {
             {t.location}
           </p>
         </div>
+      </div>
+
+      <div className="header-contact">
+        <a href="mailto:felipelarson@gmail.com">
+          <i className="fa-solid fa-envelope"></i>
+          felipelarson@gmail.com
+        </a>
+        <span className="contact-sep">·</span>
+        <a href="tel:+351968445348">
+          <i className="fa-solid fa-phone"></i>
+          +351 968 445 348
+        </a>
+        <span className="contact-sep">·</span>
+        <a
+          href="https://www.linkedin.com/in/felipe-larson-da-silveira/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa-brands fa-linkedin-in"></i>
+          linkedin.com/in/felipe-larson-da-silveira
+        </a>
+        <span className="contact-sep">·</span>
+        <a
+          href="https://www.github.com/felipelarson"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa-brands fa-github"></i>
+          github.com/felipelarson
+        </a>
       </div>
     </header>
   );

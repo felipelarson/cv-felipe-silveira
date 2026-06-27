@@ -20,7 +20,7 @@ const translations = {
 
         // About
         aboutText:
-            "Desenvolvedor Full Stack com experiência em transformar requisitos complexos em soluções robustas e escaláveis, atuando tanto no frontend com Next.js quanto no backend com NestJS. Tenho facilidade em conectar diferentes tecnologias e criar arquiteturas eficientes. Sou movido por desafios técnicos e busco constantemente entregar produtos que agreguem valor real ao negócio.",
+            "Desenvolvedor Full Stack com experiência profissional na construção de aplicações web escaláveis utilizando JavaScript, TypeScript, React, Next.js, Node.js e NestJS. Especializado em arquiteturas serverless com AWS Lambda e S3, design de APIs RESTful e bancos de dados NoSQL/SQL. Histórico comprovado de entrega de funcionalidades em produção no setor de energia, com experiência adicional em Python e PHP. Experiente em trabalhar com equipes multifuncionais utilizando metodologias ágeis.",
 
         // Education
         educationItems: [
@@ -39,24 +39,26 @@ const translations = {
         // Experiences
         experienceItems: [
             {
-                company: "GML Transmission Solutions (Enline Transmission)",
+                company: "Enline Transmission (GML Transmission Solutions)",
                 period: "06/2022 — Presente",
-                role: "Desenvolvedor Fullstack",
+                role: "Desenvolvedor Full Stack",
                 description: [
-                    "Desenvolvimento de novas funcionalidades em plataforma de monitoramento de linhas de transmissão",
-                    "Manutenção e evolução de sistemas legados e novos módulos",
-                    "Suporte técnico aos utilizadores internos e externos",
-                    "Integração com APIs de mapas (Google Maps, Mapbox), gráficos (Plotly) e serviços AWS",
+                    "Desenvolveu e implantou uma plataforma de questionários dinâmicos com Next.js, TypeScript, Strapi (CMS headless) e AWS S3, substituindo um processo manual e reduzindo o tempo de coleta de dados para engenheiros de campo.",
+                    "Construiu o site institucional da empresa do zero com Next.js, TypeScript e Chakra UI, entregando um produto totalmente responsivo e acessível alinhado às diretrizes de marca.",
+                    "Implementou um módulo de localização de falhas integrando gráficos Plotly com AWS Lambda para computação sob demanda, permitindo que engenheiros identifiquem falhas em linhas de transmissão de alta tensão com precisão visual.",
+                    "Desenvolveu um dashboard de Classificação Dinâmica de Linhas (DLR) com Next.js, TypeScript, SASS e Plotly, processando dados de sensores em tempo real via funções Lambda para otimizar decisões de capacidade da rede elétrica.",
+                    "Projetou e manteve uma API RESTful (EMS) com NestJS, TypeScript, MongoDB e AWS S3, servindo como backbone para múltiplos produtos internos e integrações externas.",
+                    "Prestou suporte contínuo Tier-1/2 a utilizadores internos e externos, reduzindo o tempo médio de resposta para bugs críticos reportados pelas equipes de campo.",
                 ],
             },
             {
                 company: "Kenzie Academy Brasil",
                 period: "09/2021 — 12/2021",
-                role: "Peer Coach (Monitoria)",
+                role: "Technical Mentor (Peer Coach)",
                 description: [
-                    "Suporte técnico aos alunos em JavaScript, React, Redux e TypeScript",
-                    "Revisão e correção de código",
-                    "Acompanhamento personalizado dos alunos",
+                    "Mentorou uma turma de 20+ desenvolvedores júnior por meio de revisões semanais de código em JavaScript, React, Redux e TypeScript, melhorando as pontuações médias dos projetos do grupo.",
+                    "Ofereceu orientação personalizada 1:1 sobre debugging, decisões de arquitetura e boas práticas, acelerando a progressão dos alunos no programa intensivo de 12 meses.",
+                    "Identificou lacunas recorrentes de conhecimento e encaminhou feedback curricular aos instrutores, contribuindo para melhorias iterativas no conteúdo do curso.",
                 ],
             },
         ],
@@ -64,6 +66,9 @@ const translations = {
         // Skills
         frontend: "Frontend",
         backend: "Backend",
+        cloud: "Nuvem",
+        databases: "Banco de Dados",
+        devops: "DevOps",
         tools: "Ferramentas",
 
         // Languages
@@ -138,7 +143,7 @@ const translations = {
 
         // About
         aboutText:
-            "Full Stack Developer focused on the JavaScript/TypeScript ecosystem, with command of NestJS and Next.js. Experienced in creating end-to-end solutions, I seek to transform complex problems into scalable and efficient systems. My approach combines technical rigor with a mindset oriented towards innovation and business impact.",
+            "Full Stack Developer with professional experience building scalable web applications using JavaScript, TypeScript, React, Next.js, Node.js, and NestJS. Proficient in serverless architectures with AWS Lambda and S3, RESTful API design, and NoSQL/SQL databases. Track record of delivering production-grade features in the energy-tech sector, with additional experience in Python and PHP. Experienced working in cross-functional teams using agile methodologies.",
 
         // Education
         educationItems: [
@@ -157,24 +162,26 @@ const translations = {
         // Experiences
         experienceItems: [
             {
-                company: "GML Transmission Solutions (Enline Transmission)",
-                period: "06/2022 — Present",
-                role: "Fullstack Developer",
+                company: "Enline Transmission (GML Transmission Solutions)",
+                period: "Jun 2022 — Present",
+                role: "Full Stack Developer",
                 description: [
-                    "Development of new features for a power transmission line monitoring platform",
-                    "Maintenance and evolution of legacy systems and new modules",
-                    "Technical support for internal and external users",
-                    "Integration with map APIs (Google Maps, Mapbox), charting (Plotly), and AWS services",
+                    "Developed and deployed a dynamic questionnaire platform using Next.js, TypeScript, Strapi (headless CMS), and AWS S3, replacing a manual process and reducing data collection time for field engineers.",
+                    "Built the company's public website from scratch using Next.js, TypeScript, and Chakra UI, delivering a fully responsive and accessible product aligned with brand guidelines.",
+                    "Implemented a fault-location module integrating Plotly charts with AWS Lambda for on-demand computation, enabling engineers to identify high-voltage transmission-line faults with visual precision.",
+                    "Engineered a Dynamic Line Rating (DLR) dashboard with Next.js, TypeScript, SASS, and Plotly, processing real-time sensor data via Lambda functions to optimise grid capacity decisions.",
+                    "Designed and maintained a RESTful API (EMS) using NestJS, TypeScript, MongoDB, and AWS S3, serving as the backbone for multiple internal products and external integrations.",
+                    "Provided ongoing Tier-1/2 user support, reducing average response time for critical bugs reported by field teams.",
                 ],
             },
             {
                 company: "Kenzie Academy Brasil",
-                period: "09/2021 — 12/2021",
-                role: "Peer Coach (Mentoring)",
+                period: "Sep 2021 — Dec 2021",
+                role: "Technical Mentor (Peer Coach)",
                 description: [
-                    "Technical support for students in JavaScript, React, Redux, and TypeScript",
-                    "Code review and correction",
-                    "Personalized student guidance and follow-up",
+                    "Mentored a cohort of 20+ junior developers through weekly code reviews in JavaScript, React, Redux, and TypeScript, improving average project scores across the group.",
+                    "Delivered personalised 1:1 guidance on debugging, architecture decisions, and best practices, accelerating learner progression in a 12-month intensive bootcamp programme.",
+                    "Identified recurring knowledge gaps and escalated curriculum feedback to instructors, contributing to iterative improvements in course content.",
                 ],
             },
         ],
@@ -182,6 +189,9 @@ const translations = {
         // Skills
         frontend: "Frontend",
         backend: "Backend",
+        cloud: "Cloud",
+        databases: "Databases",
+        devops: "DevOps",
         tools: "Tools",
 
         // Languages

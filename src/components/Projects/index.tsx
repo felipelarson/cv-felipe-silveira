@@ -16,7 +16,7 @@ export const Projects = () => {
               {project.url ? (
                 <a href={project.url} target="_blank" rel="noopener noreferrer">
                   {project.name}
-                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  {/* <i className="fa-solid fa-arrow-up-right-from-square"></i> */}
                 </a>
               ) : (
                 project.name
